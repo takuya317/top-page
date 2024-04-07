@@ -1,0 +1,63 @@
+@use "global" as *;
+
+.blog{
+    background: #111;
+    padding-top: rem(214);
+    padding-bottom: rem(153);
+    z-index: 1;
+}
+
+.blog__inner{
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.blog__section-header{
+    position: absolute;
+    right: 7%;
+    top: -10%;
+    z-index: 2;
+}
+
+.blog__tittle{
+    color: #FFF;
+    font-family: "Noto Sans JP";
+    font-size: rem(30);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1; /* 52.667% */
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.blog__cards{
+    margin-top: rem(40);
+    position: relative;
+}
+
+.blog__btn{
+    margin-top: rem(52);
+    text-align: center;
+}
+
+.blog__new{
+    position: absolute;
+    color: #333;
+    font-family: "Noto Sans JP";
+    font-size: rem(16);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.1875; /* 218.75% */
+    letter-spacing: 2px;
+    background-color: #FFBA6A;
+    width: rem(60);
+    height: rem(60);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -1.5%;
+    top: -3.5%;
+    z-index: 10;
+}

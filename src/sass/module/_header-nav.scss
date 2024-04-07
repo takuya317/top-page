@@ -1,0 +1,64 @@
+@use "global" as *;
+
+.header-nav{
+    height: inherit;
+}
+
+.header-nav__items{
+    display: flex;
+    height: inherit;
+    gap: rem(32);
+    align-items: center;
+}
+
+.header-nav__item{
+    height: inherit;
+    color: #FFF;
+font-family: "Noto Sans JP";
+font-size: rem(16);
+font-style: normal;
+font-weight: 400;
+line-height: rem(35); /* 218.75% */
+letter-spacing: 0.1em;
+position: relative;
+
+}
+
+.header-nav__item:last-child{
+    color: rgba(51, 51, 51, 1);
+    padding-left: rem(32);
+    padding-right: rem(32);
+    background-color: #fff;
+}
+
+.header-nav__item a{
+    height: inherit;
+    display: flex;
+    align-items: center;
+   
+}
+
+
+.header-nav__item span{
+    position: absolute;
+    display: block;
+    border-top:rem(4) solid #FFEA2E ;
+    // width: rem(70);
+   width: 100%;
+    height: rem(1);
+   bottom: 15%;
+    transition: all .3s;
+    transform: scale(0, 1);
+    transform-origin: top center;
+}
+
+.header-nav__item:nth-child(6) span{
+    width: rem(100);
+}
+
+
+
+
+.header-nav__item:hover span{
+    transform: scale(1, 1);
+}

@@ -1,0 +1,43 @@
+@use "global" as *;
+
+.footer{
+ background: #111;
+  padding-top: rem(32);
+  padding-bottom: rem(32);
+    position: relative;
+}
+
+.footer__inner{
+    display: flex;
+
+
+    justify-content: space-between;
+    padding-left: rem(32);
+    padding-right: rem(32);
+}
+
+.footer__logo{
+
+}
+
+
+.footer__logo img{
+    width: rem(70);
+    height: rem(30);
+}
+
+.footer__nav{
+
+}
+
+.footer__copyright{
+    color: #FFF;
+text-align: center;
+font-family: "Noto Sans JP";
+font-size: rem(15);
+font-style: normal;
+font-weight: 400;
+line-height: 2.33; /* 233.333% */
+letter-spacing: 0.1em;
+margin-top: rem(64);
+}

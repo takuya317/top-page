@@ -1,0 +1,32 @@
+@use "global" as *;
+
+.footer-nav{
+    height: inherit;
+}
+
+.footer-nav__items{
+    display: flex;
+    height: inherit;
+    gap: rem(32);
+    align-items: center;
+}
+
+.footer-nav__item{
+    height: inherit;
+    color: #FFF;
+font-family: "Noto Sans JP";
+font-size: rem(16);
+font-style: normal;
+font-weight: 400;
+line-height: rem(35); /* 218.75% */
+letter-spacing: 0.1em;
+
+}
+
+
+
+.footer-nav__item a{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
