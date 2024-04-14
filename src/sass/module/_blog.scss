@@ -1,23 +1,21 @@
 @use "global" as *;
 
 .blog{
-    background: #111;
-    padding-top: rem(214);
+  
+   
     padding-bottom: rem(153);
     z-index: 1;
 }
 
 .blog__inner{
     position: relative;
-    overflow: hidden;
+    
     
 }
 
 .blog__section-header{
-    position: absolute;
-    right: 7%;
-    top: -10%;
-    z-index: 2;
+
+    
 }
 
 .blog__tittle{
@@ -60,4 +58,9 @@
     left: -1.5%;
     top: -3.5%;
     z-index: 10;
+}
+
+.blog__section-header .section-header__engtittle{
+    right: 0;
+    top: -200%;
 }

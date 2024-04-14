@@ -1,14 +1,36 @@
 @use "global" as *;
 
 .section-header{
-    color: #F9F871;
-font-family: "Noto Serif JP";
-font-size: rem(110);
+position: relative;
+}
+
+.section-header__jptittle{
+    color: #FFF;
+font-family: "Noto Sans JP";
+font-size: rem(30);
 font-style: normal;
 font-weight: 400;
-line-height: normal;
-letter-spacing: 2px;
-// text-transform: uppercase;
-opacity: 0.27;
-
+line-height: 1;
+letter-spacing: rem(0.5);
+text-align: center;
 }
+
+
+.section-header__engtittle{
+    color: #F9F871;
+    font-family: "Noto Serif JP";
+    font-size: rem(110);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: rem(2);
+    opacity: 0.27;
+    text-align: center;
+    position: absolute;
+    top: -300%;
+}
+
+.section-header__engtittle::first-letter{
+    text-transform: uppercase;
+}
+
